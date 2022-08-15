@@ -7,9 +7,9 @@ version: 2
 
 # Personal info
 name: Suhyun Bae
-title: Backend Engineer
+title: 미래를 보는 Backend Engineer
 email: roy7579@gmail.com
-website: https://github.com/wantedhyun/wantedhyun.github.io
+web: https://velog.io/@wantedhyun
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -29,11 +29,14 @@ linkedin_username: wantedhyun
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
+# 어떻게 기여했고
+# 기술적으로 어떻게 잘 풀었는지
+
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
+- title: developer blog
   icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  url: https://velog.io/@wantedhyun
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,69 +51,190 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  안녕하세요! 미래를 생각하고 개발하는 개발자 배수현입니다. 
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  사수없는 환경에서 일하다 보니, 한 수 앞을 내다보고 일하는 습관이 생겼습니다. 
+  단순히 요구사항만을 구현하는 것보다, <mark>비즈니스 기획과 의도에 초점을 맞춰 개발</mark>합니다. 
+  생산적이고 예리한 질문으로 기획을 구체화하는 것에도 관심 있습니다.
+
+  Python, JavaScript를 시작으로, 현재는 Java와 Spring을 공부하고 있습니다. 
+
+  작동하는 것에 만족하지 않고, <mark>원리</mark>에 숙달하고 <mark>더 좋은 대안</mark>을 찾기 위해 노력합니다. 
+  Design Pattern과 Clean Code가 보기에만 좋은 것이 아니라 유지보수에 유연하고 생산성 높은 코드라고 생각합니다. 
+  
+  동료들에게 설명하는 것을 좋아하고, 이해시키는 것에 자신 있습니다. 
+  동료들을 올바른 방향으로 이끄는 것을 좋아하여, 사내 리팩토링 스터디를 진행하고 있습니다. 
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: 제너레잇
+        link: app.zenerate.ai
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: Backend Engineer
+        caption: 2021.07 - 현재
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          북미 수익 극대화 빌딩 디자인 AI 솔루션 스타트업으로 프리 시리즈A 55억 투자 유치
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          - 3 Layer Architecture Express.js API 서버 구축
+          - 엔진과 연동을 위한 RabbitMQ, Redis 도입/관리 (Docker Compose)
+          - MySQL Database 관리(Naming Convention, User 권한 관리, Liquibase 활용 스키마 버젼 관리)
+          - Swagger 활용 API 문서화, 백엔드 Confluence 문서화
+          - NewRelic을 도입하여 API 트랜잭션 모니터링/성능 최적화
+          - 부동산 임대가 데이터베이스 설계 및 Crawling Module 개발(Sequelize, Linux Cron)
+      
+      - layout: left
+        title: 누벤트
+        sub_title: Backend Engineer
+        caption: 2022.09 - 2021.04
+        quote: >
+          영수증 데이터 기반 음식점 매출 데이터 분석 B2B 스타트업
+        description: | # this will include new lines to allow paragraphs
+          - 영수증 분석 엔진 개발 (영수증 1건 분석로직 0.08초 -> 0.02초)
+          - 비즈니스 인사이트를 제공하기 위한 배달데이터 시각화 구현 (ELK Stack)
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: API 서버 개발 총괄
+        caption: 2021.07 - 현재
+        sub_title: 제너레잇
+        description: | # this will include new lines to allow paragraphs
+          - 코드 재사용성이 높도록 3 Layer Architecture 구조 API 서버 개발(Express.js)
+          - 유저의 빌딩 디자인 생성 요청에 엔진을 가동하기 위한 Celery, RabbitMQ, Redis 구축
+          - 이상적인 부지 선정을 위한 LA 지역별 건축법규 Incentive/Overlay를 계산 모듈 개발 총괄
+          - 엔진 장애 발생시 빠른 대응을 위한 Slack 알람 개발(AWS SNS)
+
+      - layout: left
+        title: DevOps 개발
+        caption: 2021.11 - 현재
+        sub_title: 제너레잇
+        description: | # this will include new lines to allow paragraphs
+          - API 서버와 엔진 간 태스크 관리를 위한 RabbitMQ, Redis 구축(Docker)
+          - 유저가 생성중인 빌딩 데이터 손실 방지와 고가용성을 위한 Redis Sentinel 도입(Docker Compose)
+          - 개발 편의성과 트래킹을 위한 MySQL 스키마 버젼 관리(Liquibase)
+          - MySQL 테이블 Naming Convention, 유저 권한 관리
+      
+      - layout: left
+        title: 북미 부동산 임대가 DB/크롤링 Batch 개발 총괄
+        caption: 2021.11 - 현재
+        sub_title: 제너레잇
+        description: | # this will include new lines to allow paragraphs
+          - 유저가 건설할 부동산 임대가 예측을 위한 데이터베이스 설계
+          - 북미 부동산 빌딩, 도면, 임대가 크롤링 모듈 개발(Puppeteer.js)
+          - DB 부하 최소화로 위한 N+1 문제 해결(Sequelize) 
+      
+      - layout: left
+        title: 빌딩 디자인 디버깅 Tool 개발 총괄
+        caption: 2021.11 - 현재
+        sub_title: 제너레잇
+        description: | # this will include new lines to allow paragraphs
+          - 건축가가 새로운 빌딩 디자인을 디버깅하기 위한 툴
+          - 서비스의 모든 아키텍처를 Docker Compose로 구성
+          - 개발 지식이 없는 건축가가 Docker Desktop으로 디버깅 툴을 사용 가능
+      
+      - layout: left
+        title: 영수증 분석 엔진 개발
+        caption: 2021.01 - 2021.04
+        sub_title: 누벤트
+        description: | # this will include new lines to allow paragraphs
+          - 1일 5만건 영수증 분석 엔진 개발
+          - 레거시 코드 대비 4배 성능 향상 (0.08초 -> 0.02초)
+          - 추후 엔진 개발에 참고할 테스트 코드 작성 및 테스트 수트 구성
+      
+      - layout: left
+        title: 배달 데이터 로깅/시각화
+        caption: 2020.09 - 2020.11
+        sub_title: 누벤트
+        description: | # this will include new lines to allow paragraphs
+          - 쌓여있는 배달 데이터로 비즈니스 인사이트를 제공하기 위해 개발
+          - 배달주문, 배달고객, 배달메뉴 데이터를 Filtering하여 ElasticSearch에 적재 (MySQL -> Logstash -> ElasticSearch)
+          - Docker Compose로 관리
+
+  - title: Skill # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Backend
+        description: | # this will include new lines to allow paragraphs
+          - JavaScript, Express.js, Sequelize, Swagger, Puppeteer
+          - Java, Spring, JPA, Spring Data JPA
+          - Python, Celery, Pandas, Tensorflow
+      
+      - layout: left
+        title: DevOps
+        description: | # this will include new lines to allow paragraphs
+          - MySQL, Liquibase
+          - Redis, Redis Sentinel
+          - Docker, Docker Compose
+          - RabbitMQ
+          - ELK Stack (ElasticSearch, Logstash, Kibana)
+          - AWS EC2, S3, RDS, SNS
+      
+      - layout: left
+        title: IDE
+        description: | # this will include new lines to allow paragraphs
+          - WebStorm, VS Code, DataGrip, PyCharm, SourceTree, Postman, Sublime Text
+      
+      - layout: left
+        title: Collaboration Tools
+        description: | # this will include new lines to allow paragraphs
+          - Jira, Confluence
+          - Slack
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: 건국대학교
+        caption: 2016.03 - 2018.02
+        sub_title: 전자공학과
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          - 졸업작품 : 인공신경망 아날로그 회로 구현
+          - 컴퓨터구조, 알고리즘, 자료구조 수강
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+  - title: Others # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 개인 블로그
+        link: https://velog.io/@wantedhyun
+        caption: 2021.12 - 현재
+        description: | # this will include new lines to allow paragraphs
+          - 공부한 것, 개발에서 만났던 문제와 해결책을 정리하는 블로그입니다. 
+          - CS 기본 지식(SOLID, Design Pattern), Database, Backend Framework의 원리를 다룹니다. 
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - layout: left
+        title: 사내 리팩토링 스터디
+        link: 
+        caption: 2022.06 - 2022.08
+        description: | # this will include new lines to allow paragraphs
+          - 빠른 구현에만 초점이 맞춰진 개발문화 개선을 위해 경영진에 리팩토링 스터디 제안/리딩
+          - 스터디 제안 이후 사내 교육제도 도입
+          - Notion을 통해 개인별 공부한 내용과 논의할 내용 공유
 
-      Look at this cool image  
-      ![Ocean](/modern-resume-theme/images/landscape.jpg "Ocean")
+      - layout: left
+        title: Tensorflow Developer Certificate
+        link: https://www.credential.net/ce1584a0-29d6-491f-8db8-88ca72255fa1
+        caption: 2021.01 - 2024.01
+        description: | # this will include new lines to allow paragraphs
+          - Tensorflow 자격증입니다
+
+      - layout: left
+        title: Deep Learning Specialization
+        link: https://www.coursera.org/account/accomplishments/specialization/certificate/2BHHM2WRTKJX
+        caption: 2020.11 - 2020.12
+        description: | # this will include new lines to allow paragraphs
+          - 딥러닝 이론부터 Tensorflow 활용법을 수강했습니다. 
+
+      - layout: left
+        title: Google Developers Machine Learning Bootcamp
+        caption: 2020.11 - 2021.02
+        description: | # this will include new lines to allow paragraphs
+          - 딥러닝 교육과정을 수료하고, Tensorflow 자격증에 취득하는 온라인 부트캠프입니다. 
 
 # Footer
 footer_show_references: true
