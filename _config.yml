@@ -55,12 +55,12 @@ about_content: | # this will include new lines to allow paragraphs
 
   사수없는 환경에서 일하다 보니, 한 수 앞을 내다보고 일하는 습관이 생겼습니다. 
   단순히 요구사항만을 구현하는 것보다, <mark>비즈니스 기획과 의도에 초점을 맞춰 개발</mark>합니다. 
-  생산적이고 예리한 질문으로 기획을 구체화하는 것에도 관심 있습니다.
+  생산적인 질문으로 기획을 구체화하는 것에도 관심 있습니다. 
 
   Python, JavaScript를 시작으로, 현재는 Java와 Spring을 공부하고 있습니다. 
 
   작동하는 것에 만족하지 않고, <mark>원리</mark>에 숙달하고 <mark>더 좋은 대안</mark>을 찾기 위해 노력합니다. 
-  Design Pattern과 Clean Code가 보기에만 좋은 것이 아니라 유지보수에 유연하고 생산성 높은 코드라고 생각합니다. 
+  유지보수에 유연하고 생산성 높은 코드를 짜기 위해 생각합니다. 
   
   동료들에게 설명하는 것을 좋아하고, 이해시키는 것에 자신 있습니다. 
   동료들을 올바른 방향으로 이끄는 것을 좋아하여, 사내 리팩토링 스터디를 진행하고 있습니다. 
@@ -160,7 +160,7 @@ content:
       - layout: left
         title: Backend
         description: | # this will include new lines to allow paragraphs
-          - JavaScript, Express.js, Sequelize, Swagger, Puppeteer
+          - JavaScript, TypeScript, Express.js, TypeORM, TypeDI, Sequelize, Swagger, Puppeteer
           - Java, Spring, JPA, Spring Data JPA
           - Python, Celery, Pandas, Tensorflow
       
@@ -217,18 +217,19 @@ content:
           - Notion을 통해 개인별 공부한 내용과 논의할 내용 공유
 
       - layout: left
+        title: 김영한의 Spring Framework 로드맵 수강
+        link: https://www.inflearn.com/certificate/317229-324214-4801788
+        caption: 2022.01 - 현재
+        description: | # this will include new lines to allow paragraphs
+          - 객체지향적  Backend Framework을 공부하고 있습니다. 
+          - SpringBoot와 JPA를 활용한 API 설계를 할 수 있는 수준입니다. 
+
+      - layout: left
         title: Tensorflow Developer Certificate
         link: https://www.credential.net/ce1584a0-29d6-491f-8db8-88ca72255fa1
         caption: 2021.01 - 2024.01
         description: | # this will include new lines to allow paragraphs
-          - Tensorflow 자격증입니다
-
-      - layout: left
-        title: Deep Learning Specialization
-        link: https://www.coursera.org/account/accomplishments/specialization/certificate/2BHHM2WRTKJX
-        caption: 2020.11 - 2020.12
-        description: | # this will include new lines to allow paragraphs
-          - 딥러닝 이론부터 Tensorflow 활용법을 수강했습니다. 
+          - Tensorflow 자격증입니다.
 
       - layout: left
         title: Google Developers Machine Learning Bootcamp
