@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Suhyun Bae
-title: 미래를 보는 Backend Engineer
+title: 비즈니스를 이해하는 Backend Engineer
 email: roy7579@gmail.com
 web: https://velog.io/@wantedhyun
 
@@ -51,19 +51,18 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요! 미래를 생각하고 개발하는 개발자 배수현입니다. 
+  안녕하세요! 비즈니스를 이해하는 개발자, 배수현입니다. 
 
-  사수없는 환경에서 일하다 보니, 한 수 앞을 내다보고 일하는 습관이 생겼습니다. 
-  단순히 요구사항만을 구현하는 것보다, <mark>비즈니스 기획과 의도에 초점을 맞춰 개발</mark>합니다. 
-  생산적인 질문으로 기획을 구체화하는 것에도 관심 있습니다. 
+  단순히 요구사항만을 구현하는 것보다, <mark>비즈니스 전반과 제품 기획을 이해하고 개발하는 것</mark>을 좋아합니다. 
+  질문을 통해 기획 의도를 명확히 파악하고 개발하려고 노력합니다. 
+  서비스에 도움이 될 만한 기능을 제안하고 개발하는 것도 좋아합니다. 
+  사내 프로세스 중 반복되는 일을 자동화하는 것에 관심이 있습니다. 
 
-  Python, JavaScript를 시작으로, 현재는 Java와 Spring을 공부하고 있습니다. 
-
-  작동하는 것에 만족하지 않고, <mark>원리</mark>에 숙달하고 <mark>더 좋은 대안</mark>을 찾기 위해 노력합니다. 
+  작동하는 것에 만족하지 않고, 기술의 핵심과 원리를 완전히 이해하려고 노력합니다. 
+  더 좋은 대안과 프로세스를 항상 고민합니다. 
   유지보수에 유연하고 생산성 높은 코드를 짜기 위해 생각합니다. 
-  
   동료들에게 설명하는 것을 좋아하고, 이해시키는 것에 자신 있습니다. 
-  동료들을 올바른 방향으로 이끄는 것을 좋아하여, 사내 리팩토링 스터디를 진행하고 있습니다. 
+  동료들을 올바른 방향으로 이끄는 것을 좋아하여, 사내 스터디를 진행한 경험이 있습니다. 
 
 content:
   - title: Experience # Title for the section
@@ -78,12 +77,12 @@ content:
         quote: >
           북미 수익 극대화 빌딩 디자인 AI 솔루션 스타트업으로 프리 시리즈A 55억 투자 유치
         description: | # this will include new lines to allow paragraphs
-          - 3 Layer Architecture Express.js API 서버 구축
-          - 엔진과 연동을 위한 RabbitMQ, Redis 도입/관리 (Docker Compose)
-          - MySQL Database 관리(Naming Convention, User 권한 관리, Liquibase 활용 스키마 버젼 관리)
+          - 3 Tier Architecture Express.js API 서버 구축 (Express.js, TypeScript, TypeORM)
+          - 엔진 서버와 연동을 위한 RabbitMQ, Redis 도입/관리 (Docker Compose)
+          - Liquibase 활용 스키마 버젼 관리
           - Swagger 활용 API 문서화, 백엔드 Confluence 문서화
           - NewRelic을 도입하여 API 트랜잭션 모니터링/성능 최적화
-          - 부동산 임대가 데이터베이스 설계 및 Crawling Module 개발(Sequelize, Linux Cron)
+          - 부동산 임대가 크롤링 모듈 개발(Puppeteer, Linux Cron)
       
       - layout: left
         title: 누벤트
@@ -103,7 +102,7 @@ content:
         caption: 2021.07 - 현재
         sub_title: 제너레잇
         description: | # this will include new lines to allow paragraphs
-          - 코드 재사용성이 높도록 3 Layer Architecture 구조 API 서버 개발(Express.js)
+          - 3 Tier Architecture 구조 API 서버 개발(Express.js, TypeScript, TypeORM)
           - 유저의 빌딩 디자인 생성 요청에 엔진을 가동하기 위한 Celery, RabbitMQ, Redis 구축
           - 이상적인 부지 선정을 위한 LA 지역별 건축법규 Incentive/Overlay를 계산 모듈 개발 총괄
           - 엔진 장애 발생시 빠른 대응을 위한 Slack 알람 개발(AWS SNS)
@@ -116,7 +115,7 @@ content:
           - API 서버와 엔진 간 태스크 관리를 위한 RabbitMQ, Redis 구축(Docker)
           - 유저가 생성중인 빌딩 데이터 손실 방지와 고가용성을 위한 Redis Sentinel 도입(Docker Compose)
           - 개발 편의성과 트래킹을 위한 MySQL 스키마 버젼 관리(Liquibase)
-          - MySQL 테이블 Naming Convention, 유저 권한 관리
+          - 사내에서 사용되는 MySQL 테이블/컬럼 Naming Convention, 유저 권한 관리
       
       - layout: left
         title: 북미 부동산 임대가 DB/크롤링 Batch 개발 총괄
@@ -125,16 +124,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           - 유저가 건설할 부동산 임대가 예측을 위한 데이터베이스 설계
           - 북미 부동산 빌딩, 도면, 임대가 크롤링 모듈 개발(Puppeteer.js)
-          - DB 부하 최소화로 위한 N+1 문제 해결(Sequelize) 
-      
-      - layout: left
-        title: 빌딩 디자인 디버깅 Tool 개발 총괄
-        caption: 2021.11 - 현재
-        sub_title: 제너레잇
-        description: | # this will include new lines to allow paragraphs
-          - 건축가가 새로운 빌딩 디자인을 디버깅하기 위한 툴
-          - 서비스의 모든 아키텍처를 Docker Compose로 구성
-          - 개발 지식이 없는 건축가가 Docker Desktop으로 디버깅 툴을 사용 가능
       
       - layout: left
         title: 영수증 분석 엔진 개발
@@ -205,37 +194,31 @@ content:
         caption: 2021.12 - 현재
         description: | # this will include new lines to allow paragraphs
           - 공부한 것, 개발에서 만났던 문제와 해결책을 정리하는 블로그입니다. 
-          - CS 기본 지식(SOLID, Design Pattern), Database, Backend Framework의 원리를 다룹니다. 
+          - CS 기본 지식(SOLID, Design Pattern), Database, Backend Framework를 공부하고 기록합니다. 
 
       - layout: left
         title: 사내 리팩토링 스터디
         link: 
         caption: 2022.06 - 2022.08
         description: | # this will include new lines to allow paragraphs
-          - 빠른 구현에만 초점이 맞춰진 개발문화 개선을 위해 경영진에 리팩토링 스터디 제안/리딩
-          - 스터디 제안 이후 사내 교육제도 도입
-          - Notion을 통해 개인별 공부한 내용과 논의할 내용 공유
+          - 빠른 구현에만 초점이 맞춰진 개발문화 개선을 위해 리팩토링 2판 도서 스터디 제안/리딩
+          - Notion을 통해 개인별 공부한 내용과 논의 공유
 
       - layout: left
         title: 김영한의 Spring Framework 로드맵 수강
         link: https://www.inflearn.com/certificate/317229-324214-4801788
         caption: 2022.01 - 현재
         description: | # this will include new lines to allow paragraphs
-          - 객체지향적  Backend Framework을 공부하고 있습니다. 
-          - SpringBoot와 JPA를 활용한 API 설계를 할 수 있는 수준입니다. 
+          - 효율적인 Backend 설계를 위해 공부하고 있습니다. 
+          - SpringBoot, JPA, Spring Data JPA를 이용하여 API 개발이 가능합니다. 
 
       - layout: left
-        title: Tensorflow Developer Certificate
+        title: Tensorflow Developer Certificate 취득
         link: https://www.credential.net/ce1584a0-29d6-491f-8db8-88ca72255fa1
-        caption: 2021.01 - 2024.01
+        caption: 2020.09 - 2021.01
         description: | # this will include new lines to allow paragraphs
-          - Tensorflow 자격증입니다.
-
-      - layout: left
-        title: Google Developers Machine Learning Bootcamp
-        caption: 2020.11 - 2021.02
-        description: | # this will include new lines to allow paragraphs
-          - 딥러닝 교육과정을 수료하고, Tensorflow 자격증에 취득하는 온라인 부트캠프입니다. 
+          - 딥러닝 모델 개발에 사용하는 Framework인 Tensorflow 자격증입니다.
+          - 딥러닝 모델을 깊게 이해하고 현업에서 사용하고 싶어서 공부했습니다.
 
 # Footer
 footer_show_references: true
