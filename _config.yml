@@ -123,11 +123,11 @@ content:
           - 사내에서 사용되는 MySQL 테이블/컬럼 Naming Convention, 유저 권한 관리
       
       - layout: left
-        title: 북미 부동산 임대가 DB/크롤링 Batch 개발 총괄
+        title: 북미 부동산 임대가 크롤링 Batch 개발
         caption: 2021.11 - 현재
         sub_title: 제너레잇
         description: | # this will include new lines to allow paragraphs
-          - 유저가 건설할 부동산 임대가 예측을 위한 데이터베이스 설계
+          - 유저가 건설할 부동산 임대가 예측을 위한 DB 설계
           - 북미 부동산 빌딩, 도면, 임대가 크롤링 모듈 개발(Puppeteer.js)
       
       - layout: left
